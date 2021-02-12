@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/bootstrap.css" />
+<link rel="stylesheet" href="../css/style.css" />
+<title>Currency Converter</title>
+</head>
+
+<body>
+
+<br/><br/>
+
+<div class="container">
+
+
+  
+
+
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Currency Converter <span style="float:right;">Currencies are based on today's exchange rate aligned text.</span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+
+<div class="col-md-12">
+
+       <div class="col-md-3 ">
+          <form>
+          <div class="form-group">
+            <label for="">Amount</label>
+            <input type="number" class="form-control" placeholder="Enter value">
+          </div>  
+        </div>
+
+       <div class="col-md-3">
+          <div class="form-group">
+            <label for="">From</label>
+              <select ng-model="fromType" class="form-control" required>
+                <option value="">--Select--</option>
+              </select>
+                
+          </div> 
+
+        </div>
+
+        <div class="col-md-3">
+          <div class="form-group">
+            <label for="">To</label>
+            <select ng-model="toType" class="form-control" required>
+                <option value="">--Select--</option>
+              </select>
+          </div>  
+        </div>
+
+        <div class="col-md-3">
+          <div class="form-group">
+             <label for=""><br/></label>
+             <br/>
+          <button type="submit" class="btn btn-danger">Calculate</button>
+        </div>
+        </div>
+
+      </form>
+
+      </div><!--col-md-12 end-->
+
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+

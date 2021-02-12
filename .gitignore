@@ -1,0 +1,19 @@
+public/uploads/
+classified
+livesite
+bower_components
+node_modules
+app live.js
+configure.js
+config.ini
+.idea
+package.json
+.vscode/launch.json
+app.txt
+newrelic_agent.log
+newrelic.js
+configure.js
+
+# app.js
+angella/
+public/logs

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metas
+  ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="Your Friend has invited to join https://auctionsoftwaremarketplace.com:2002" />
+    <meta property="og:image" content="../images/logo.ic.png" />
+    <title>AuctionSoftware.com</title>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <!-- Favicon
+  ================================================== -->
+    <link rel="shortcut icon" href="../images/logo.ic.png">
+    <!-- Google fonts
+  ================================================== -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css' />
+    <!-- bootstrap v3.0.2
+  ================================================== -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!--font-awesome
+  ================================================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
+    <!-- CSS Custom
+  ================================================== -->
+    <link rel="stylesheet" type="text/css" href="../css/reset-min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="../css/chemexange.css" /> -->
+    <link rel="stylesheet" type="text/css" href="../css/theme0.css" />
+    <link rel="stylesheet" type="text/css" href="../css/forward_home.css" />
+    <link rel="stylesheet" type="text/css" href="../css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common_responsive.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common_responsive1.css" />  
+        
+        </head>
+
+<body>
+    <nav class="navbar-custom" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12 pull-left cust_serrr">Customer Service 9722005516</div>
+                <div class="col-md-7 col-sm-6 col-xs-12 welcome-msg text-right">
+                    <div class="pull-left ab1" style="margin-right:5px"> <span class="cursor ">View as</span> &nbsp; &nbsp;
+                        <form action="../index/changetheme" id="change_theme" class="pull-right" method="post" enctype="multipart/form-data">
+                            <input type="hidden" name="gopage" value="../">
+                            <select onChange="$('#change_theme').submit()" name="themeno" style="color:#000">
+                                <option value="0" selected>Black Forest</option>
+                                <option value="1">Baby blue</option>
+                                <option value="2">Glossy Byzantium</option>
+                                <option value="3">Deep Red</option>
+                                <option value="4">Auction stone </option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="pull-left ab1" style="margin-right:5px"> <span class="cursor ">Login as</span> &nbsp;
+                        <form action="../login/save" id="autologin" method="post" class=" pull-right" enctype="multipart/form-data">
+                            <input type="hidden" name="autologin" value="1">
+                            <input type="hidden" name="username" id="autologinuserid" value="">
+                            <select onChange="loginauto(this)" name="autologinoption" style="color:#000;width:100px;">
+                                <option value="0" selected>Select</option>
+                                <option value="buyer">Buyer</option>
+                                <option value="seller">Seller</option>
+                                <option value="admin">Admin</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="wlcome_rht pull-right"> Welcome! <a href="" data-toggle="modal" data-target="#registration">Register</a> or <a href="" data-toggle="modal" data-target="#Login">Sign In</a> </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="print_header">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12 logo_container">
+                        <a href="https://auctionsoftwaremarketplace.com:2002"><img class="img-responsive" src="../images/home/logo.png" class="img-responsive" alt="Auctionsoftware" /></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-12 pull-right print_hide" style="padding-left: 0;padding-right: 0;">
+                        <div class="col-md-8 col-sm-8 col-xs-6 pull-left" style="padding-left: 0;padding-right: 0;">
+                            <ul class="list-inline new_bright_li">
+                                <li><a href="../search/?type=1">Auction</a></li>
+                                <li><a href="../search/?type=2">Buy Now</a></li>
+                                <li><a href="../search/?type=3">Featured</a></li>
+                                <li><a href="../search/?type=4">Video</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-6 customer_service_block" style="text-align: right;">
+                            <a href="#" data-toggle="modal">
+                                <div class="cart_himg col-md-3 pull-left">
+                                    <div class="cartyynew cart" style="cursor: pointer;">0</div>
+                                </div>
+                            </a>
+                            <div class="col-md-9 nmyaccount"> Guest </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <script>
+        $('.dropdown').hover(function () {
+            $('.dropdown-toggle', this).trigger('click');
+        });
+    </script>
+    <style type="text/css">
+        .pad-left-right-0px {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+    </style>
+    <style>
+        .navigation22 ul li.active > ul {
+            visibility: visible !important;
+        }
+        
+        @media screen and (max-width:990px) {
+            .navigation22 ul li.active > ul {
+                visibility: hidden !important;
+            }
+        }
+    </style>
+    <!-- store section design -->
+    <div class="container-fluid store-head add-prdt add-prdt2">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="col-md-12 con"> 
+                     <div class="col-sm-3 padboth1 padrig">  
+                        <div class="col-sm-12 padboth1 padtop">
+                        <input type="text" class="form-control" placeholder="Title">
+                        </div>
+                         <div class="col-sm-12 img-wrap">  
+                        <img src="../uploads/product/N1rEG7oPF-.jpg" alt="Antique jwellery" class="img-responsive"> <span class="btn btn-default btn-file">
+   Add Cover <input type="file">
+                             </span>  </div>
+                        <div class="col-sm-12  text-center">
+                            <a href="#" class="del-txt">Delete Product</a>
+                        </div>
+                        
+                         <div class="col-sm-12 padboth">
+                        <button class="btn btn-scom">Upload Product</button> <br/>
+                               <button class="btn btn-scom">Upload Serial Number File (.csv)</button>
+                        </div>
+                        
+                        
+                        <div class="col-sm-12 padboth5">
+                        <div class="s-txt rd-txt">  Price: ($) </div> <input type="text" class="form-control s-input">
+                        </div>
+                            <div class="col-sm-12 padboth5">
+                        <div class="s-txt rd-txt"> Commission: (%) </div> <input type="text" class="form-control s-input">
+                        </div>
+                        <div class="col-sm-12 padboth5">
+                        <div class="rd-txt"> $0.00 </div>  
+                        </div>
+                        
+                         <div class="col-sm-12 ftn600 padboth5">
+                             Average Overall Rating:
+                        </div>
+                         <div class="col-sm-12 padboth5">
+                            <img src="images/star_empty.gif">
+                             <img src="images/star_empty.gif">
+                             <img src="images/star_empty.gif">
+                               <img src="images/star_empty.gif">
+                             <img src="images/star_empty.gif"> (0)
+                        </div>
+                        <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600">  Categories:  </div> 
+                            
+                            <select  class="form-control s-input" ><option value="Business">Business</option><option value="Developer Tools">Developer Tools</option><option value="Education">Education</option><option value="Entertainment">Entertainment</option><option value="Finance">Finance</option><option value="Graphics &amp; Design">Graphics &amp; Design</option><option value="Health &amp; Fitness">Health &amp; Fitness</option><option value="Lifestyle">Lifestyle</option><option value="Medical">Medical</option><option value="Music">Music</option><option value="News">News</option><option value="Photography">Photography</option><option value="Productivity">Productivity</option><option value="Reference">Reference</option><option value="Social Networking">Social Networking</option><option value="Sports">Sports</option><option value="Travel">Travel</option><option value="Utilities">Utilities</option><option value="Video">Video</option><option value="Weather">Weather</option><option value="Other">Other</option></select>
+                            
+                        </div>
+                         <div class="col-sm-12 padboth5">
+                             <div class="s-txt ftn600">  Language:  </div> <select  class="form-control s-input" ><option></option></select>
+                        </div>
+                        
+                        <div class="col-sm-12 ftn600 padboth5">
+                            Compatibility
+                        </div>
+                          <div class="col-sm-12 ftn600 padboth5">
+                        <label class="checkbox-inline">
+                            <input type="checkbox"  value="option1"> Windows
+                              </label><label class="checkbox-inline">
+                            <input type="checkbox"  value="option1"> Mac OS X
+                              </label>
+                              <label class="checkbox-inline">
+                            <input type="checkbox"  value="option1"> Linux
+                              </label>
+                        </div>
+                        
+                        
+                        <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600">  Version:  </div> <input type="text" class="form-control s-input">
+                        </div>
+                        <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600">  Publisher:  </div> <input type="text" class="form-control s-input">
+                        </div>
+                        <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600">  Developer:  </div> <input type="text" class="form-control s-input">
+                        </div>
+                        <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600">  Country:  </div>  <select  class="form-control s-input" ><option></option></select>
+                        </div>
+                        <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600">  UPC/EAN Code:  </div> <input type="text" class="form-control s-input">
+                        </div>
+                        <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600">  Copyright:  </div> <input type="text" class="form-control s-input">
+                        </div>
+                        <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600">  Release Date:  </div> <input type="text" class="form-control s-input">
+                        </div>
+                          <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600"> Preview URL: (youtube or vimeo)  </div>
+                                <div class="col-sm-12 padboth5 padlr">
+                              <input type="text" class="form-control">
+                              </div>
+                        </div>
+                           <div class="col-sm-12 padboth5">
+                        <div class="s-txt ftn600">   File Size: </div>   <div class="s-txt">  0 bytes</div>
+                        </div>
+                           <div class="col-sm-12 padboth5">
+                               <div class="s-txt ftn600">  File Format:    <div class="s-txt"> </div> </div>  
+                        </div>
+                        
+                    
+                    </div>
+                    
+                     <div class="col-sm-9 padboth1">
+                         <div class="col-sm-12 bt-info ">  <div class="btn-group" data-toggle="buttons">
+                            <button type="button" class="btn btn-default">Cancel/Revert </button>
+                            <button type="button" class="btn btn-default">Save as incomplete</button>
+                            <button type="button" class="btn btn-default">Save as complete</button>
+                          </div></div>
+                         
+                    
+                    <div class="col-sm-12 img-wrap img-wrap1">  
+                        <img src="images/old-b.jpg"   class="img-responsive"> <span class="btn btn-default btn-file">
+                        Add Cover <input type="file">
+                             </span>  </div>
+                         
+                         <div class="col-sm-12 padboth5">
+                         <div class="padboth5 ftn600"> Description  </div> 
+                             <textarea class="form-control" rows="3"></textarea>
+                         </div>
+                         <div class="col-sm-12 padboth5">
+                         <div class="padboth5 ftn600"> System Requirements  </div> 
+                             <textarea class="form-control" rows="3"></textarea>
+                         </div>
+                         <div class="col-sm-12 padboth5">
+                         <div class="padboth5 ftn600"> EULA (End UserLicense Agreement)  </div> 
+                             <textarea class="form-control" rows="3"></textarea>
+                         </div>
+                         <div class="col-sm-12 ftn600 padboth1">
+                             Serial Keys
+                        </div>
+                         <div class="col-sm-12 ftn600 fnt16 padboth5">
+                            Average Rating: 
+                        </div>
+                         
+                          <div class="col-sm-12 padboth5 fnt16">
+                            <img src="images/star_off.gif">
+                          <img src="images/star_off.gif">
+                             <img src="images/star_off.gif">
+                             <img src="images/star_off.gif">
+                             <img src="images/star_off.gif"> (0) Based on 0 ratings
+                        </div>
+                         
+                          <div class="col-sm-12 padboth5">
+                            <img src="images/star_full.gif">
+                          <img src="images/star_full.gif">
+                             <img src="images/star_full.gif">
+                             <img src="images/star_full.gif">
+                             <img src="images/star_full.gif">  <img src="images/slide.png"> (0/0) 
+                        </div>
+                         <div class="col-sm-12 padboth5">
+                            <img src="images/star_full.gif">
+                          <img src="images/star_full.gif">
+                             <img src="images/star_empty.gif">
+                             <img src="images/star_empty.gif">
+                             <img src="images/star_empty.gif">  <img src="images/slide.png"> (0/0)  
+                        </div>
+                          <div class="col-sm-12 padboth5">
+                            <img src="images/star_full.gif">
+                          <img src="images/star_full.gif">
+                             <img src="images/star_empty.gif">
+                             <img src="images/star_empty.gif">
+                             <img src="images/star_empty.gif">  <img src="images/slide.png"> (0/0) 
+                        </div>
+                          <div class="col-sm-12 padboth5">
+                            <img src="images/star_full.gif">
+                          <img src="images/star_full.gif">
+                             <img src="images/star_full.gif">
+                             <img src="images/star_full.gif">
+                             <img src="images/star_full.gif">  <img src="images/slide.png"> (0/0) 
+                        </div>
+                         <div class="col-sm-12 padboth5">
+                            <img src="images/star_full.gif">
+                          <img src="images/star_full.gif">
+                             <img src="images/star_empty.gif">
+                             <img src="images/star_empty.gif">
+                             <img src="images/star_empty.gif">  <img src="images/slide.png"> (0/0) 
+                        </div>
+                         
+                         <div class="col-sm-12 padboth1"> 
+                             <textarea class="form-control" rows="4"></textarea>
+                         </div>
+                         
+                         <div class="col-sm-12 padboth5"> 
+                             <button class="btn btn-scom pull-right">Report Item</button>
+                         </div>
+                         
+                              <div class="col-sm-12 padboth5"> 
+                             <button class="btn green_btn">View 0 Comments</button>
+                         </div>
+                      
+                         
+                         
+                         
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- store section design -->
+    <div class="print_footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-5">
+                        <div class="footer_logo">
+                            <a href="https://auctionsoftwaremarketplace.com:2002"> <img src="../images/logoc.png" class="img-responsive" alt="" /></a>
+                        </div>
+                        <div class="copy_right">
+                            <p class="footer_txt">Auctionsoftware.com&nbsp;<i class="fa fa-copyright"></i>&nbsp;2015.</p>
+                            <div class="social_icons"> <span style="display: inline-block;float: left;">| Follow Us</span>
+                                <div><a href="https://www.facebook.com/pages/Auctionsoftwarecom/1497910160481548?fref=nf" target="_blank"><i class="fa fa-facebook"></i></a></div>
+                                <div><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-offset-1 col-xs-12 col-sm-12 col-md-6">
+                        <div class="footer_right">
+                            <div><a href="../">Home</a></div>
+                            <div><a href="../about">About Us</a></div>
+                            <div><a href="../about/buyers">Buyers</a></div>
+                            <div><a href="../sellers">Sellers</a></div>
+                            <div><a href="../blog">Blog</a></div>
+                            <div style="border-right: 1px solid #fff;"><a href="../how_it">How It Works</a></div>
+                            <div><a href="../about/contacts">Contact Us</a></div>
+                            <div><a href="../privacy">Privacy Policy</a></div>
+                            <div><a href="../terms">Terms & Conditions</a></div>
+                            <!--                       <div> <a href="../login">Review</a></div>
+                    -->
+                            <div><a href="../reviews">Review</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../js/owl.carousel.js"></script>
+    <!--<script src="../js/common.js" type="text/javascript"></script>-->
+    <script type="text/javascript" language="javascript" src="../js/bootstrap.js"></script>
+    <div style="clear:both"></div>
+    <script>
+        function show1() {
+            document.getElementById('div2').style.display = 'none';
+            document.getElementById('div3').style.display = 'none';
+            document.getElementById('div4').style.display = 'none';
+            document.getElementById('div5').style.display = 'none';
+            document.getElementById('div6').style.display = 'none';
+            document.getElementById('div1').style.display = 'block';
+        }
+
+        function show2() {
+            document.getElementById('div1').style.display = 'none';
+            document.getElementById('div3').style.display = 'none';
+            document.getElementById('div4').style.display = 'none';
+            document.getElementById('div5').style.display = 'none';
+            document.getElementById('div6').style.display = 'none';
+            document.getElementById('div2').style.display = 'block';
+        }
+
+        function show3() {
+            document.getElementById('div2').style.display = 'none';
+            document.getElementById('div1').style.display = 'none';
+            document.getElementById('div4').style.display = 'none';
+            document.getElementById('div5').style.display = 'none';
+            document.getElementById('div6').style.display = 'none';
+            document.getElementById('div3').style.display = 'block';
+        }
+
+        function show4() {
+            document.getElementById('div2').style.display = 'none';
+            document.getElementById('div3').style.display = 'none';
+            document.getElementById('div1').style.display = 'none';
+            document.getElementById('div5').style.display = 'none';
+            document.getElementById('div6').style.display = 'none';
+            document.getElementById('div4').style.display = 'block';
+        }
+
+        function show5() {
+            document.getElementById('div2').style.display = 'none';
+            document.getElementById('div3').style.display = 'none';
+            document.getElementById('div4').style.display = 'none';
+            document.getElementById('div1').style.display = 'none';
+            document.getElementById('div6').style.display = 'none';
+            document.getElementById('div5').style.display = 'block';
+        }
+
+        function show6() {
+            document.getElementById('div2').style.display = 'none';
+            document.getElementById('div3').style.display = 'none';
+            document.getElementById('div4').style.display = 'none';
+            document.getElementById('div5').style.display = 'none';
+            document.getElementById('div6').style.display = 'none';
+            document.getElementById('div6').style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>

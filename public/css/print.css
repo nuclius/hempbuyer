@@ -1,0 +1,49 @@
+body {
+	font-family:arial !important;
+	background: none;
+	color: black;
+}
+ 
+	 
+	.order_details {
+		margin: 10px auto;
+		min-height: 119px;
+		height: auto;
+		padding-bottom: 15px;
+		background-color: #e5e5e5;
+	}
+	 
+	.pull-right {
+    float: right !important;
+	}
+	 
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+		float:left; 
+		width:auto;
+	}
+	.row.tranc_details .col-md-3,.row.tranc_details .col-md-4,.row.tranc_details .col-md-2,.col-md-6 {
+		width:50%;
+	}
+	.row.amt_invoice1 {
+		min-height:inherit;
+		height:auto; 
+	}
+	.amt_paid { 
+		padding: 5px 32px; 
+	}
+	.trans_dtls,.order,.cust { 
+		font-size:15px;
+	}
+	.tgray_box {
+		min-height:200px;
+	}
+	.col-md-4.logo_container,.col-md-4.logo_container a {
+		margin:10px auto;
+		display:inline-block;
+		float:none;
+		text-align:center;
+		width:100%;
+}
+	.customer_service_block,.print_hide {
+		display:none;
+	}

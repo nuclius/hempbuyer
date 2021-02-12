@@ -1,0 +1,2235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Herbal Electronic Exchange</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/font-awesome-animation.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sidebar-menu.css" />
+    <link rel="stylesheet" href="css/mystyle.css" />
+
+</head>
+
+<body>
+<!--Header start Here-->
+<header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header"  data-aos="fade-right">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" style="margin-top: -20px;"><img src="images/logo.png" class="img-responsive" /></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse mrtp5" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right mrtp5"   data-aos="fade-left">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a class="howworks" href="index.html#howworksSec">How it Works</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="User Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Password">
+            </div>
+            <button onclick="window.location.href='login.html'" type="button" class="btn btn-default">Login</button>
+          </form>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+</header>
+<!--Header end Here-->
+
+
+<!-- page content  -->
+
+
+<!-- Reccuring Purchase -->
+<div class="container">
+  <div class="modal fade reccuring-modal" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          <div class="panel panel-success">
+            <div class="panel-heading green-bg">
+                <h3>Make this a recurring purchase ?</h3>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <ul class="nav nav-pills nav-justified">
+                      <li class="active"><a data-toggle="pill" href="#yes">YES</a></li>
+                      <li><a data-toggle="pill" href="#no">NO</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content">
+
+                <div id="yes" class="tab-pane fade in active">
+
+                    <div class="row">
+
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="col-md-12 m20">
+                                <p class="description m10 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                            </div>
+                            <div class="col-md-12 m20">
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+                                      <select class="w100 p15 pb15 border1" name="">
+                                          <option value="">Frequency</option>
+                                          <option value="">Weekly</option>
+                                          <option value="">Bi Weekly</option>
+                                          <option value="">Monthly</option>
+                                          <option value="">Quarterly</option>
+                                          <option value="">Bi annually</option>
+                                          <option value="">Annually</option>
+                                      </select>
+                                    </div>
+                                      <div class="col-sm-6">
+                                        <input class="w100 p15 pb15 border1" type="email" id="email" placeholder="Quantity" name="email">
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 m10">
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+                                        <div class="inner-addon right-addon">
+                                              <i class="glyphicon glyphicon-calendar"></i>
+                                              <input class="w100 p15 pb15 border1" type="email" id="email" placeholder="Start Date" name="email">
+                                         </div>
+                                    </div>
+                                      <div class="col-sm-6">
+                                          <div class="inner-addon right-addon">
+                                                <i class="glyphicon glyphicon-calendar"></i>
+                                                <input class="w100 p15 pb15 border1" type="email" id="email" placeholder="End Date" name="email">
+                                           </div>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 m10">
+                                <div class="form-group">
+                                          <div class="col-sm-6">
+                                            <span class="description"><i>Would you like cancellation insurance? </i></span>
+                                          </div>
+                                          <div class="col-sm-6">
+                                              <div class="radio-con">
+                                                  <div class="radio2">
+                                                      <input id="radio-3" name="radio" type="radio" value="test">
+                                                      <label for="radio-3" class="radio-label">Yes</label>
+                                                    </div>
+
+                                                    <div class="radio2">
+                                                      <input id="radio-4" name="radio" type="radio" value="testdisable" checked="">
+                                                      <label for="radio-4" class="radio-label">No</label>
+                                                   </div>
+                                              </div>
+                                          </div>
+
+                                              <!-- <div class="col-md-12 testresult" style="display: none;">
+                                                  <div class="pro-thumb grey-bg flex w100">
+                                                    <img src="images/upload-img.png" class="img-responsive margin-auto" alt="">
+                                                  </div>
+                                                  <div class="margin-auto" style="margin-right:0px;">
+                                                      <span class="f12 m5"><i>Upload Test Result</i></span>
+                                                      <input name="test-result-name" type="file" id="filecount3" multiple="multiple" value="test" tabindex="-1" style="position: absolute; clip: rect(0px 0px 0px 0px);"><div class="bootstrap-filestyle input-group"><span class="group-span-filestyle " tabindex="0"><label for="filecount3" class="btn btn btn-default btn-d-b btn-d-g m5 w100 "><span class="icon-span-filestyle "></span> <span class="buttonText">UPLOAD</span></label></span></div>
+                                                  </div>
+                                              </div> -->
+
+                                        </div>
+                            </div>
+                            <div class="col-md-12 m10">
+                               <div class="checkbox">
+                                  <label>
+                                    <input name="terms-name" type="checkbox" value="terms">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Set it up?
+                                  </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 m10">
+                                <div class="col-md-12 pslr0 text-left mr-cklab mrbt10 scall">
+                                    <div class="scrl terms" id="style-1">
+                                    	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 m10">
+                               <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox" value="">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    I have accepted the terms and conditions
+                                  </label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="no" class="tab-pane fade in">
+
+                  <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+
+                      <div class="row">
+                        <div class="col-md-5 col-md-offset-3">
+  <input class="w100 p15 pb15 grey-bg border-0 m10" type="email" id="email" placeholder="Quantity Requested" name="email">
+                        </div>
+
+                        <div class="col-md-12 pslr0 text-left mr-cklab mrbt10 scall">
+                          <div class="scrl" id="style-1">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                              </div>
+                          </div>
+
+                      </div>
+
+                      <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">
+                        <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                        I have accepted the terms and conditions
+                      </label>
+                    </div>
+
+
+
+                    </div>
+                  </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-default btn-d-b green-b" type="submit">BUY NOW</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- Negotiable -->
+
+<div class="container">
+
+
+  <!-- Modal -->
+  <div class="modal reccuring-modal fade" id="negotiable" role="dialog">
+    <div class="modal-dialog modal-sm" style="width: 35% !important;">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          <div class="panel panel-success">
+            <div class="panel-heading green-bg">
+                <h3>NEGOTIABLE <img src="images/negotiable.png" class="img-responsive" alt="negotiable"></h3>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+          <h3 class="primary-blue text-center m20">Suggested Price:<span class="green-text">$20/Unit</span></h3>
+          <input class="w100 p15 pb15 grey-bg border-0" type="email" id="email" placeholder="Price Offer" name="email">
+          <input class="w100 p15 pb15 grey-bg border-0 m10" type="email" id="email" placeholder="Quantity Requested" name="email">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">Submit </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+<div class="container-fluid store-view-fluid grey-bg">
+
+    <div class="container store-view-con">
+        <div class="page-caption m50">
+            <h1>your store name</h1>
+        </div>
+
+        <div class="row store-details-row">
+            <div class="col-md-12 white-bg shadow p35-15 pb0">
+                <div class="col-md-2 margin-auto">
+                    <div class="store-thumb">
+                        <img src="images/pro-thumb.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-7 margin-auto">
+                    <p class="description" style="padding:30px 0px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+
+                <!-- <div class="col-md-3 store-details margin-auto">
+                    <ul>
+                        <li><i class="icon fa fa-user" aria-hidden="true"></i> Jhon Doe</li>
+                        <li><i class="icon fa fa-phone" aria-hidden="true"></i> +1 2534 235 145</li>
+                        <li><i class="icon fa fa-location-arrow" aria-hidden="true"></i>
+                            Skinny Pvt Ltd.
+                            260 Valley View Lane,
+                            Dallas, Texas 75234
+                        </li>
+                    </ul>
+                </div> -->
+
+                <div class="col-md-12">
+              <ul class="nav nav-pills page-link">
+
+              <li class="active"><a class="" href="post-item.html">Post an item</a></li>
+              <li><a class="" href="ads-store.html">Advertise Store</a></li>
+              <li><a class="" href="ads-product.html">Advertise Product</a></li>
+              <li><a class="" href="#">Manage Purchases</a></li>
+              <li><a class="" href="#">Review Open Invoices</a></li>
+              <li><a class="" href="#">Review Closed Invoices</a></li>
+              <li><a class="" href="#">Sales Reports</a></li>
+
+            </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- / store-details-row -->
+
+        <div class="row store-content-row white-bg shadow p35-15">
+            <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3 sidebar res-p0 mb-25">
+
+                    <ul class="sidebar-menu">
+                      <li>
+                        <a class="maincat">
+                                                        <span class="catcap"><b>CATEGORIES</b></span></i>
+                                                    </a>
+                      </li>
+                      <li>
+                        <div class="maincat">
+                          <i class="icon flaticon-research-work"></i>
+                          <span>All</span>
+                          <!-- <i class="fa fa-angle-left pull-right"></i> -->
+                        </div>
+
+                      </li>
+
+
+                      <li>
+                        <a class="maincat" href="#">
+                                                    <i class="icon flaticon-flower-with-leaves"></i>
+                                                  <span>Flower</span><i class="fa fa-angle-left pull-right"></i>
+
+                                                </a>
+                        <ul class="sidebar-submenu" style="display: none;">
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Pure Indica </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Pure Sativa </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Sativa- Hybrid </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Indica- Hybrid </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> 50/50 Hybrid </a>
+                              </div>
+                            </div>
+                          </li>
+
+                        </ul>
+                      </li>
+
+
+                      <li>
+                        <a class="maincat" href="#">
+                                                    <i class="icon flaticon-medicine-bottle"></i>
+                                                  <span>Dry Concentrates</span>
+                                                  <i class="fa fa-angle-left pull-right"></i>
+                                                </a>
+                        <ul class="sidebar-submenu" style="display: none;">
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Hash </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Kief </a>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <a class="maincat" href="#">
+                                                    <i class="icon flaticon-oil-drum"></i>
+                                                  <span>Oil Concentrates</span>
+                                                  <i class="fa fa-angle-left pull-right"></i>
+                                                </a>
+                        <ul class="sidebar-submenu" style="display: none;">
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Tincture </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Rosin </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Shatter  </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Extracts  </a>
+                              </div>
+                            </div>
+                          </li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="maincat" href="#">
+                                                    <img src="images/topicals.png" class="img-responsive" alt="">
+                                                  <span>Topicals</span>
+                                                  <i class="fa fa-angle-left pull-right"></i>
+                                                </a>
+                        <ul class="sidebar-submenu" style="display: none;">
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Salves</a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Creams </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Lubes  </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Patches  </a>
+                              </div>
+                            </div>
+                          </li>
+
+
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="maincat" href="#">
+                                                    <i class="icon flaticon-muffin"></i>
+                                                    <span>Edibles</span>
+                                                  <i class="fa fa-angle-left pull-right"></i>
+                                                </a>
+                        <ul class="sidebar-submenu" style="display: none;">
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Sweet Goods </a>
+                              </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Savory Goods </a>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Confectionery  </a>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#"> Beverage    </a>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                <a href="#">Infused Ingredients   </a>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+
+
+                      <li>
+                        <a class="maincat">
+                                                      <span class="catcap"><b>TYPE</b></span></i>
+                                                  </a>
+
+                      </li>
+
+                    </ul>
+
+                    <ul class="sidebar-submenu2 p0">
+                      <li>
+                        <div class="row">
+                          <div class="col-md-12">
+
+                            <div class="checkbox">
+                              <label>
+                                    <input type="checkbox" value="">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Buy Now
+                                  </label>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="checkbox">
+                              <label>
+                                    <input type="checkbox" value="">
+                                    <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                                    Negotiable
+                                  </label>
+                            </div>
+
+                          </div>
+                        </div>
+                      </li>
+
+                    </ul>
+
+                  </div>
+
+                    <div class="col-md-9 right-content">
+
+                        <div class="row top-bar-row">
+                            <div class="col-md-12 flex main-col">
+                                <div class="col-md-8 margin-auto text-center">
+                                    <div class="category-heading">
+                                        <span class="icon flaticon-medicine-bottle"></span>
+                                        Dry Concentrates > <span class="sub-category">Hash</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 margin-auto">
+                                    <input class="w80 p5-15 border1 input-radius search-input" placeholder="Search" type="text" name="" value="">
+                                    <button type="button" name="button" class="input-radius green-b b search-btn">
+                                        <i class="fa fa-search white" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <!-- <div class="col-md-3 margin-auto text-right">
+                                    <select class="p15 grey-bg border-0 sort" name="">
+                                        <option value="">Sort by price: Low to High</option>
+                                    </select>
+                                </div> -->
+                                <!-- <div class="col-md-3">
+                                  <h5 class="green-text">1-48 <span class="grey">of 100 results</span></h5>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Large Product Name is Here</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row items-row">
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:20</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:No limit</li>
+                                    <li></li>
+                                    <li class="text-center"><a href="product-view-db.html"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#myModal">BUY NOW <span class="icon flaticon-shopping-cart"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 item-col shadow">
+                                <ul>
+                                    <li class="price-offer">
+                                        <!-- <strike>$200</strike> (50%) -->
+                                        <span class="price">$100/Unit</span>
+
+                                    </li>
+                                    <li class="favourate">
+                                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                                <div class="item-thumb">
+                                    <img src="images/item.png" class="img-responsive margin-auto" alt="">
+                                </div>
+                                <ul class="item-details">
+                                    <li>Product Name</li>
+                                    <li>Qty Available:2</li>
+                                    <li></li>
+                                    <li clas><a href="#"><i>More Details</i></a></li>
+                                </ul>
+                                <p class="description"><i></i></p>
+                                <div class="reccuring-purchase">
+                                    <!-- <a href="#"><img src="images/reccuring.png" alt="reccuring"><span>Make this a recurring purchase?</span></a> -->
+                                </div>
+                                <div class="btn-wrapper">
+                                    <button class="btn btn-default btn-d black-g" type="button" name="button" data-toggle="modal" data-target="#negotiable">negotiable <img src="images/negotiable.png" class="img-responsive"  alt="negotiable"></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="">
+                <ul class="pagination-ul flex">
+                    <a href="#"><li class="inactive"><span class="fa fa-angle-left"></span></li></a>
+                    <a href="#"><li class="active">1</li></a>
+                    <a href="#"><li>2</li></a>
+                    <a href="#"><li>3</li></a>
+                    <a href="#"><li>4</li></a>
+                    <a href="#"><li><span class="fa fa-angle-right"></li></a>
+                </ul>
+            </div>
+        </div> -->
+
+
+    </div>
+</div>
+
+<!-- / page content  -->
+
+
+
+
+<!--footer Start Here-->
+<footer >
+ <div class="container pdtb4p wid70">
+ 	<div class="col-xs-6 col-sm-6 col-md-6" data-aos="fade-right">
+        <div class="footer_head">Main Menu</div>
+        <ul class="ms_zero">
+            <li><a href="#">Mobile App</a></li>
+            <li><a href="#">Learn to Sell</a></li>
+            <li><a href="#">Bidding & Buying Help </a></li>
+            <li><a href="#">Advertise with Us </a></li>
+            <li><a href="#">Investors </a></li>
+            <li><a href="#">Policies </a></li>
+            <li><a href="#">Contact Herbee </a></li>
+        </ul>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 text-right" data-aos="fade-left">
+        <div class=" pull-right"><img src="images/logo-foot.png" class="img-responsive" /></div>
+        <div class="clearfix"></div>
+      <div class="mrtp30">
+        <ul class="ms_zero">
+            <li><a href="#">
+                <span><img src="images/facebook.png" /></span>
+                <span><img src="images/insta.png" /></span>
+            	<span><img src="images/socl1.png" /></span>
+                <!-- <span><img src="images/socl2.png" /></span> -->
+                <span><img src="images/socl3.png" /></span>
+                <!-- <span><img src="images/socl4.png" /></span> -->
+                <!-- <span><img src="images/socl5.png" /></span> -->
+                <!-- <span><img src="images/socl6.png" /></span> -->
+                <!-- <span><img src="images/socl7.png" /></span> -->
+            </a></li>
+        </ul>
+        </div>
+    </div>
+ </div>
+</footer>
+<!--footer End Here-->
+
+
+<script src="js/custom.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/sidebar-menu.js"></script>
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+<script src="js/bootstrap-filestyle.min.js"></script>
+
+<script>
+
+    $('#filecount').filestyle({
+     input : true,
+     buttonName : '',
+     iconName : 'fa fa-pencil',
+     buttonText: ''
+    });
+
+</script>
+
+
+<script type="text/javascript">
+
+    $(function () {
+        $('.terms').hide();
+
+        $("input[name=terms-name]:checkbox").click(function () {
+
+        if ($('input[name=terms-name]:checkbox').val() == "terms") {
+            $('.terms').show();
+
+        } else if ($('<input type="text" name="radio" />').val() == "terms") {
+            $('.testresult').hide();
+
+
+        }
+        });
+    });
+
+</script>
+
+
+<script>
+   AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+</script>
+<script type="text/javascript">
+//On scroll call the draw function
+$(window).scroll(function() {
+drawLines();
+});
+
+//If you have more than one SVG per page this will pick it up
+function drawLines(){
+$.each($("path"), function(i, val){
+  var line = val;
+  drawLine($(this), line);
+});
+}
+
+//draw the line
+    function drawLine(container, line){
+var length = 1;
+var pathLength = line.getTotalLength();
+var distanceFromTop = container.offset().top - $(window).scrollTop();
+var percentDone = 1 - (distanceFromTop / $(window).height());
+length = percentDone * pathLength;
+line.style.strokeDasharray = [length,pathLength].join(' ');
+console.log("strokeDasharray: "+[length,pathLength].join(' '));
+}
+</script>
+<script>
+     $.sidebarMenu($('.sidebar-menu'));
+</script>
+</body>
+</html>

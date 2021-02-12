@@ -1,0 +1,19 @@
+<div class="white_box">
+					 <div class="wb_bll">{$pharse.user_panel}</div>
+					   <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard'"><span class="img_up"><img src="{$config.url}/images/db1.png" alt="" /></span>{$pharse.dashboard}<i class="fa fa-chevron-circle-right"></i></div>
+                     <div class="wb_lbl" onclick="window.location='{$config.url}/profile_settings'"><span class="img_up"><img src="{$config.url}/images/db2.png" alt="" /></span>{$pharse.edit_profile}<i class="fa fa-chevron-circle-right"></i></div>
+				     <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/messages'"><span class="img_up"><img src="{$config.url}/images/db3.png" alt="" /></span>{$pharse.my_messages}<i class="fa fa-chevron-circle-right"></i></div>
+					 <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/password'"><span class="img_up"><img src="{$config.url}/images/db4.png" alt="" /></span>{$pharse.change_password}<i class="fa fa-chevron-circle-right"></i></div>
+					 <div class="wb_lbl" onclick="window.location='{$config.url}/package/'"><span class="img_up"><img src="{$config.url}/images/db5.png" alt="" /></span>{$pharse.buy_packages}<i class="fa fa-chevron-circle-right"></i></div>
+				     <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/watchlist'"><span class="img_up"><img src="{$config.url}/images/db6.png" alt="" /></span>{$phaarse.my_watchlist}<i class="fa fa-chevron-circle-right"></i></div>
+				     <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/my'"><span class="img_up"><img src="{$config.url}/images/db6.png" alt="" /></span>{$pharse.my_products}<i class="fa fa-chevron-circle-right"></i></div>
+					 <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/Myaddress'"><span class="img_up"><img src="{$config.url}/images/db7.png" alt="" /></span>{$pharse.shipping/billing_address}<i class="fa fa-chevron-circle-right"></i></div>
+                     <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/mybids'"><span class="img_up"><img src="{$config.url}/images/db8.png" alt="" /></span>{$pharse.my_bids}<i class="fa fa-chevron-circle-right"></i></div>
+					 <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/wonauctions'"><span class="img_up"><img src="{$config.url}/images/db10.png" alt="" /></span>{$pharse.penny_won_auctions}<i class="fa fa-chevron-circle-right"></i></div>
+					 <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/transactions'"><span class="img_up"><img src="{$config.url}/images/db11.png" alt="" /></span>{$pharse.my_transactions}<i class="fa fa-chevron-circle-right"></i></div>
+					 <div class="wb_lbl disabled" onclick="window.location='{$config.url}/dashboard/autobid'"><span class="img_up"><img src="{$config.url}/images/db12.png" alt="" /></span>{$pharse.auto_bid}<i class="fa fa-chevron-circle-right"></i></div>
+					 <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/referral'"><span class="img_up"><img src="{$config.url}/images/db13.png" alt="" /></span>{$pharse.referrals}<i class="fa fa-chevron-circle-right"></i></div>
+					 <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/buynow'"><span class="img_up"><img src="{$config.url}/images/db14.png" alt="" /></span>{$pharse.buy_now_transactions}<i class="fa fa-chevron-circle-right"></i></div>
+					 <div class="wb_lbl" onclick="window.location='{$config.url}/dashboard/withdrawal'"><span class="img_up"><img src="{$config.url}/images/db11.png" alt="" /></span>{$pharse.withdrawals}<i class="fa fa-chevron-circle-right"></i></div>
+					
+				</div>

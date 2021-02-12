@@ -1,0 +1,638 @@
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+
+<!-- Basic Page Needs
+  ================================================== -->
+<meta charset="utf-8">
+<title>My Order</title>
+
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<!-- CSS
+  ================================================== -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link  rel="stylesheet" type="text/css" href="../css/my-boot.css" />
+<link rel="stylesheet" type="text/css" href="../css/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="../css/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="../css/forward_home.css" />
+<link rel="stylesheet" type="text/css" href="../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../css/theme0.css" />
+<link  rel="stylesheet" type="text/css" href="icon.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<!-- Favicons ================================================== -->
+<link rel="shortcut icon" href="/image/site_favicon/favicon.ico">
+<link rel="apple-touch-icon" href="/image/apple_touch_icon/apple-touch-icon.png">
+<link href="http://www.demo.yo-kart.com/account/dashboard_supplier" rel="canonical" />
+</head>
+<body>
+<div class="wrapper">
+<div class="body clearfix">
+  <nav class="navbar-custom" role="navigation">
+   <div class="container">
+    <div class="row"> 
+        <div class="col-md-5 col-sm-5 col-xs-12 pull-left cust_serrr">Customer Service 9722005516</div>
+       
+
+        <div class="col-md-7 col-sm-6 col-xs-12 welcome-msg text-right"> 
+          <div class="pull-left ab1" style="margin-right:5px" >
+            <span class="cursor ">View as</span>  &nbsp;
+            &nbsp; <form action="" id="change_theme" class="pull-right" method="post" enctype="multipart/form-data"  >
+             <input type="hidden" name="gopage"  value= "">
+                 <select onChange="" name="themeno" style="color:#000">
+                    
+                    <option value="0"  selected >Black Forest</option>
+                     <option value="1" selected >Baby blue</option>
+                    <option value="2"  selected >Glossy Byzantium</option>
+                    <option value="3"  selected >Deep Red</option> 
+                    <option value="4"  selected >Auction stone </option>          
+                 </select>
+            </form>
+           
+         </div>
+        <div class="pull-left ab1" style="margin-right:5px">
+            <span class="cursor ">Login as</span>  &nbsp;
+            <form action="login/save" id="autologin" method="post" class=" pull-right" enctype="multipart/form-data"  >
+                 <input type="hidden" name="autologin"  value= "1">
+                 <input type="hidden" name="username" id="autologinuserid"  value= "">
+                 <select onChange="" name="autologinoption" style="color:#000;width:100px;">
+                    <option value="0" selected>Select</option>
+                    <option value="buyer" selected>Buyer</option>
+                    <option value="seller" selected>Seller</option>
+                    <option value="admin" selected>Admin</option>    
+                 </select>
+            </form> 
+         </div>
+
+          
+           <div class="wlcome_rht pull-right">
+        Welcome! 
+          <a href="profile_settings"></a> <a href="login/logout" >Log Out</a><a href="" data-toggle="modal" data-target="#registration">Register</a> or <a href=""  data-toggle="modal" data-target="#Login">Sign In</a></div>
+           </div>
+      </div> 
+  </div>
+ </nav>
+    <div class="timer_cnt" style="display:none;">
+       <span>Please pay with in  <font class="cnter"></font> seconds. <a href="product/checkout/confirm/">Pay Now</a> </span>
+    </div>
+   
+  <header>
+   <div class="container">
+    <div class="row">
+       <div class="col-md-4 col-sm-4 col-xs-12 logo_container"> <a href=""><img  class="img-responsive" src="images/logo.png" class="img-responsive" alt="Auctionsoftware"/></a> </div>
+       <div class="col-md-8 col-sm-8 col-xs-12 pull-right">
+        <div class="col-md-6 col-sm-7 col-xs-6 pull-left">
+          <ul class="list-inline new_bright_li">
+             <li><a href="search">Auction</a></li>
+             <li><a href="search">Buy Now</a></li>
+             <li><a href="search">Featured</a></li>
+          </ul>
+       </div>
+        <div class="col-md-6 col-sm-5 col-xs-6 customer_service_block">
+          <div class="col-md-9 nmyaccount"> 
+          
+         
+          <a href="dashboard" title="" class="dropdown-toggle macc" data-toggle="dropdown">My Account <span class="caret"></span> </a>
+          
+                <ul class="dropdown-menu animated-dropdown">
+                  <li><a href="product/post">Sell An Item</a></li>
+                  <li><a href="dashboard/mybids">Buyer Dashboard</a></li>
+                  <li><a href="dashboard/my">Seller Dashboard</a></li>
+                  <li><a href="dashboard/messages">Messages</a></li>
+                  <li><a href="dashboard/watchlist">Watchlist</a></li>
+                  <li><a href="profile_settings">Profile</a></li>
+                    <li><a href="membership/setup">Membership</a></li>
+                  <li><a href="dashboard/payments">Payments</a></li>
+                  <li><a href="dashboard/payment/saved">Saved Payments</a></li>
+                  </ul>
+                  <div class="cart_himg col-md-3 pull-left">
+                    <div class="cartyynew cart" style="cursor: pointer;">0</div>
+                  </div>
+                </div>
+         </div>
+      </div>
+     </div>
+  </div>
+ </header>
+
+<div class="profile-head clearfix no-print">
+      <div class="fixed-container">
+        <div class="threepin"> <a href="#" class="menu-dashboard click_trigger" id="ct_2"> <span></span></a> </div>
+        <div class="fl">
+          <div class="about-me">
+            <div class="avatar"><img src="images/seldash.png" class="img-responsive img-circle" /></div>
+            <div class="name">Maxixx <span>Los Angles, Chandigarh</span></div>
+          </div>
+        </div>
+        <div class="fr">
+          <div class="items-list">
+            <ul>
+              <li><a href="/account/publications"><span>118</span>Published Items</a></li>
+              <li><a href="/account/favorites"><span>21</span>Favorite Items</a></li>
+            </ul>
+          </div>
+          <div class="liked-shop">
+            <ul>
+              <li><a href="/account/favorites"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+                <g>
+                  <g>
+                    <defs>
+                      <rect id="SVGID_1_" width="70" height="66.3"></rect>
+                    </defs>
+                    <clipPath id="SVGID_2_">
+                      <use xlink:href="#SVGID_1_" overflow="visible"></use>
+                    </clipPath>
+                    <path clip-path="url(#SVGID_2_)" fill="#ffffff" d="M35,64.4l-4.9-4.9C11.9,43.4,0,32.5,0,19.2C0,8.4,8.4,0,19.2,0
+      c6,0,11.9,2.8,15.7,7.3C38.8,2.8,44.8,0,50.7,0C61.6,0,70,8.4,70,19.2c0,13.3-11.9,24.2-30.1,40.2L35,64.4z M35,64.4"></path>
+                  </g>
+                </g>
+                </svg> <span class="tooltip-txt">21 Favorite Items</span> </a></li>
+              <li><a href="/account/publications"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="-364 606 70 70" enable-background="new -364 606 70 70" xml:space="preserve">
+                <g>
+                  <g>
+                    <path fill="#ffffff" d="M-310.2,606H-347c-9.6,3-14.8,7.4-14.8,7.4h66.4C-301.5,607.6-310.2,606-310.2,606z M-360.3,672.5h62.7
+      v-48h-62.7V672.5z M-334.8,635.6c2.2,0,4.4,1.1,5.8,2.9c1.4-1.8,3.6-2.9,5.8-2.9c4,0,7.1,3.4,7.1,7.7c0,5.3-4.4,9.7-11.1,16.1
+      l-1.8,2l-1.8-2c-6.7-6.5-11.1-10.8-11.1-16.1C-341.9,639-338.8,635.6-334.8,635.6z M-364,617.2v3.7h70.1v-3.7H-364z"></path>
+                  </g>
+                </g>
+                </svg> <span class="tooltip-txt">118 Published Items</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="fixed-container">
+      <div class="dashboard">
+        <div class="left-data no-print" id="list_ct_2">
+          <div class="dash-nav">
+            <ul>
+            <li class="dashboard active">
+            <a href="/account/dashboard_buyer">
+            <div class="dashb"></div>
+            </a></li>
+
+            <li class="colorchg">
+            <a href="/account/dashboard_buyer">
+            <div class="accinfo"></div>
+            </a></li>
+
+            <li class="recentactivity">
+            <a href="/account/recent_activity">
+            <div class="rece"></div>
+            </a></li> 
+
+            <li class="recentactivity">
+            <a href="/account/recent_activity">
+            <div class="msg"></div>
+            </a></li>
+                
+            <li class="messages">
+            <a href="/account/messages"> 
+            <div class="mycredit"></div>
+            </a></li>
+                
+            <li class="credits">
+            <a href="/account/credits"> 
+            <div class="shareearn"></div>
+            </a></li>
+                
+            <li class="">
+            <a href="/account/share_earn"> 
+            <div class="rewardpoints"></div>
+            </a></li>
+                                  
+            <li class="reward_points">
+            <a href="/account/reward_points">
+            <div class="sales"></div>
+            </a></li>  
+
+            <li class="myorders ">
+            <a href="/account/orders"> 
+            <div class="myprod"></div>
+            </a></li>
+           
+           <li class="cancellation-requests ">
+           <a href="/account/cancellation_requests">
+           <div class="shop"></div>
+           </a></li>
+
+           <li class="cancellation-requests ">
+           <a href="/account/cancellation_requests">
+           <div class="myord"></div>
+           </a></li>
+                     
+           <li class="return-requests ">
+           <a href="/account/return_requests">
+           <div class="cancrqs"></div> 
+           </a></li>     
+                
+           <li class="favorities ">
+           <a href="/account/favorites">
+           <div class="retreq"></div>
+           </a></li>   
+           
+           <li class="addressess ">
+           <a href="/account/addresses">
+           <div class="favou"></div>
+           </a></li>
+
+           <li class="addressess ">
+           <a href="/account/addresses">
+           <div class="addre"></div>
+           </a></li>
+                
+           <li class="changepassword ">
+           <a href="/account/change_password">
+           <div class="changepass"></div> 
+           </a></li>
+             
+           <li class="changepassword ">
+           <a href="/account/change_email">
+           <div class="changeemail"></div>
+           </a></li>
+                
+            </ul>
+          </div>
+        </div>        <div class="data-side">
+          <div class="tabz-dashboard">
+            <ul class="tabz-ul">
+              <li class=""><a href="/account/dashboard_supplier">Supplier</a></li>
+              <li class="active"><a href="/account/dashboard_buyer">Buyer</a></li>
+            </ul>
+          </div>
+          <h3>My Orders</h3>
+                    <div class="darkgray-form">
+            <div class="tabs-form">
+              <div class="tabz-content">
+                <form method="post" action="?" name="frmSearchBuyerOrder" id="frmSearchBuyerOrder" class="siteForm ondark" rel="search"><table width="100%"><tbody><tr>
+<td> <input type="text" name="keyword" value="" placeholder="Keyword" title=""></td><td> <select name="status" title="" id=""><option value="">Select</option><option value="1">Payment Pending</option><option value="2">Payment Confirmed</option><option value="4">In Process</option><option value="5">Shipped</option><option value="6">Delivered</option><option value="11">Return Requested</option><option value="7">Completed</option><option value="8">Cancelled</option><option value="9">Refunded/Completed</option></select></td><td> <input type="text" name="date_from" value="" placeholder="Date From" class="date-pick calendar" title=""></td><td> <input type="text" name="date_to" value="" placeholder="Date To" class="date-pick calendar" title=""></td><td> <input type="text" name="minprice" value="" placeholder="Order From [$]" title=""></td><td> <input type="text" name="maxprice" value="" placeholder="Order To [$]" title=""></td><td> <input type="submit" name="btn_submit" id="btn_submit" title="" value="Search"></td><td> <a class="buttonNormal" href="?">Clear</a></td></tr></tbody></table><input type="hidden" name="mode" value="search" title=""><input type="hidden" name="page" value="1" title=""></form><script type="text/javascript">//<![CDATA[
+      frmSearchBuyerOrder_validator_requirements={"mode":{"required":false},"page":{"required":false},"keyword":{"required":false},"status":{"required":false},"date_from":{"required":false},"date_to":{"required":false},"minprice":{"required":false,"floating":true,"range":{"minval":0,"maxval":9999999999,"numeric":true}},"maxprice":{"required":false,"floating":true,"range":{"minval":0,"maxval":9999999999,"numeric":true}},"btn_submit":{"required":false},"html":{"required":false}};frmSearchBuyerOrder_validator_formatting={"errordisplay":"afterfield","summaryElementId":""};frmSearchBuyerOrder_validator=$("#frmSearchBuyerOrder").validation(frmSearchBuyerOrder_validator_requirements,frmSearchBuyerOrder_validator_formatting);
+      ]]></script>              </div>
+            </div>
+          </div>
+                     <div class="tbl-listing">
+            <h4>Items 1 to 10 of 220 total</h4>
+            <table>
+              <tbody>
+                <tr>
+                  <th width="20%">Inv Number &amp; Date</th>
+                  <th width="40%">Ordered Products</th>
+                  <th width="10%">Total</th>
+                  <th width="10%">Status</th>
+                  <th width="12%">Action</th>
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/264/672" class="order">
+                      160404-0000758-S0001</a>
+                  
+                  </strong> </span><br>
+                    Apr 04, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> Tissot T-race T0484172705706 Gents Wrist Watch (Qty:1)  
+                                    </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          $ 630.00</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Pending                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/672"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/672"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/672"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/672"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/263/671" class="order">
+                      160331-0000757-S0002</a>
+                  
+                  </strong> </span><br>
+                    Mar 31, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> Tom's Ware Mens Premium Casual Inner Contrast Dress Shirt (Qty:1)  
+                  <br>
+                    Part of combined order number <span class="blue-txt"> <a href="/account/view_order/263">160331-0000757</a> </span>
+                                      </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          -</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Pending                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/671"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/671"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/671"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/671"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/263/670" class="order">
+                      160331-0000757-S0001</a>
+                  
+                  </strong> </span><br>
+                    Mar 31, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> Puma White Backpack (Qty:1)  
+                  <br>
+                    Part of combined order number <span class="blue-txt"> <a href="/account/view_order/263">160331-0000757</a> </span>
+                                      </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          -</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Pending                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/670"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/670"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/670"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/670"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/261/668" class="order">
+                      160224-0000755-S0002</a>
+                  
+                  </strong> </span><br>
+                    Feb 24, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> HP Scanjet 200 Flatbed Photo Scanner (Qty:1)  
+                  <br>
+                    Part of combined order number <span class="blue-txt"> <a href="/account/view_order/261">160224-0000755</a> </span>
+                                      </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          -</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Pending                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/668"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/668"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/668"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/668"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/261/667" class="order">
+                      160224-0000755-S0001</a>
+                  
+                  </strong> </span><br>
+                    Feb 24, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> Allen solly shoes (Qty:2)  
+                  <br>
+                    Part of combined order number <span class="blue-txt"> <a href="/account/view_order/261">160224-0000755</a> </span>
+                                      </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          -</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Pending                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/667"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/667"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/667"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/667"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/260/664" class="order">
+                      160224-0000753-S0001</a>
+                  
+                  </strong> </span><br>
+                    Feb 24, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> Blue Skinny Jeans (Qty:1)  
+                                    </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          $ 94.50</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Pending                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/664"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/664"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/664"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/664"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/259/662" class="order">
+                      160222-0000751-S0001</a>
+                  
+                  </strong> </span><br>
+                    Feb 22, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> Blue Slimfitt Jeans (Qty:1)  
+                                    </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          $ 166.50</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Confirmed                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/662"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/662"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/662"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/662"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/258/660" class="order">
+                      160222-0000749-S0001</a>
+                  
+                  </strong> </span><br>
+                    Feb 22, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> Black Glitter Stretch jeans (Qty:2)  
+                                    </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          $ 315.00</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Confirmed                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/660"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/660"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/660"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/660"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/257/659" class="order">
+                      160210-0000748-S0001</a>
+                  
+                  </strong> </span><br>
+                    Feb 10, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> Black Glitter Stretch jeans (Qty:1)  
+                                    </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          $ 157.50</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Pending                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/659"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/659"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/659"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/659"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                                <tr>
+                  <td><span class="cellcaption">Inv Number &amp; Date</span> <span class="blue-txt"><strong>
+                  
+                    <a href="/account/view_order/255/657" class="order">
+                      160209-0000746-S0002</a>
+                  
+                  </strong> </span><br>
+                    Feb 09, 2016 </td>
+                  <td class="cellitem"><span class="cellcaption">Ordered Products</span> Blue Slimfitt Jeans (Qty:1)  
+                  <br>
+                    Part of combined order number <span class="blue-txt"> <a href="/account/view_order/255">160209-0000746</a> </span>
+                                      </td>
+                    <td nowrap="nowrap"><span class="cellcaption">Total</span> 
+          -</td>
+                    <td nowrap="nowrap"><span class="cellcaption">Status</span>
+                    Payment Pending                   </td>
+                   
+           <td nowrap="nowrap">
+                           
+              <a class="actions" title="Cancel" href="/account/cancellation_request/657"><img src="images/close.svg" alt=""></a>
+                            
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/657"><img alt="" src="images/message.svg"></a>-->
+                         
+                                 
+                          <a class="actions" title="Feedback" href="/account/feedback/657"><img alt="" src="images/list.svg"></a>
+                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/657"><img src="images/dollar-arrow.svg" alt=""></a>
+                          
+                      </td> 
+                </tr>
+                              </tbody>
+            </table>
+                        <div class="pager">
+              <ul>
+              <li class="active"><a href="javascript:void(0)">1</a></li><li><a href="javascript:void(0)" onclick="listPages(2);">2</a></li><li><a href="javascript:void(0)" onclick="listPages(3);">3</a></li><li><a href="javascript:void(0)" onclick="listPages(4);">4</a></li><li><a href="javascript:void(0)" onclick="listPages(5);">5</a></li><li><a href="javascript:void(0)" onclick="listPages(6);">6</a></li><li><a href="javascript:void(0)" onclick="listPages(7);">7</a></li><li><a href="javascript:void(0)" onclick="listPages(8);">8</a></li><li><a href="javascript:void(0)" onclick="listPages(9);">9</a></li><li><a href="javascript:void(0)" onclick="listPages(10);">10</a></li><li><a href="javascript:void(0)" onclick="listPages(11);">11</a></li><li>...</li>              </ul>
+            </div>
+                      </div>
+                    
+        </div>
+        
+      </div>
+    </div>
+
+
+    
+ 
+<footer style="margin-top:100px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5">
+                <div class="footer_logo"><a href="http://forward.auctionsoftware.com:2001">
+                    <img src="http://forward.auctionsoftware.com:2001/images/logoc.png" class="img-responsive" alt=""></a>
+                </div>
+                <div class="copy_right">
+                    <p class="footer_txt">Auctionsoftware.com&nbsp;<i class="fa fa-copyright"></i>&nbsp;2015.</p>
+
+                    <div class="social_icons">
+                        <span style="display: inline-block;float: left;">| Follow Us</span>
+
+                        <div><a href="https://www.facebook.com/pages/Auctionsoftwarecom/1497910160481548?fref=nf" target="_blank"><i class="fa fa-facebook"></i></a></div>
+                        <div><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-offset-1 col-xs-12 col-sm-12 col-md-6">
+
+
+                
+                <div class="footer_right">
+                    <div><a href="http://forward.auctionsoftware.com:2001/">Home</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/about">About Us</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/about/buyers">Buyers</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/sellers">Sellers</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/blog">Blog</a></div>
+                    <div style="border-right: 1px solid #fff;"><a href="http://forward.auctionsoftware.com:2001/how_it">How It Works</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/about/contacts">Contact Us</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/privacy">Privacy Policy</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/terms">Terms &amp; Conditions</a></div>
+                    <!--                       <div> <a href="http://forward.auctionsoftware.com:2001/login">Review</a></div>
+                    -->
+                    <div><a href="http://forward.auctionsoftware.com:2001/reviews">Review</a></div>
+                </div>
+                            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</footer>
+
+</body>
+</html>  

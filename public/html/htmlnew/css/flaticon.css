@@ -1,0 +1,54 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 13/05/2017 13:17
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-muffin:before { content: "\f100"; }
+.flaticon-settings:before { content: "\f101"; }
+.flaticon-blog-1:before { content: "\f102"; }
+.flaticon-blog:before { content: "\f103"; }
+.flaticon-working-team:before { content: "\f104"; }
+.flaticon-research-work:before { content: "\f105"; }
+.flaticon-business:before { content: "\f106"; }
+.flaticon-store:before { content: "\f107"; }
+.flaticon-admin-with-cogwheels:before { content: "\f108"; }
+.flaticon-mushrooms:before { content: "\f109"; }
+.flaticon-oil-drum:before { content: "\f10a"; }
+.flaticon-medicine-bottle:before { content: "\f10b"; }
+.flaticon-flower-with-leaves:before { content: "\f10c"; }
+.flaticon-shopping-cart:before { content: "\f10d"; }
+.flaticon-auction:before { content: "\f10e"; }
+.flaticon-arrow-point-to-right:before { content: "\f10f"; }
+.flaticon-auricular-phone-symbol-in-a-circle:before { content: "\f110"; }
+.flaticon-bank-building:before { content: "\f111"; }
+.flaticon-email:before { content: "\f112"; }
+.flaticon-key:before { content: "\f113"; }
+.flaticon-confirm:before { content: "\f114"; }
+.flaticon-user:before { content: "\f115"; }
+.flaticon-picture:before { content: "\f116"; }

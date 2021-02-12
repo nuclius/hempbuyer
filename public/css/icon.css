@@ -1,0 +1,199 @@
+.dash-nav li {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.dashb{
+	 background:url(../images/dashboard.png) no-repeat;
+	 height: 90px;
+	 display: block;
+	 display: block;
+}
+.dashb:hover,.dashb.active{
+    background:url(../images/dashboarda.png) no-repeat;	    
+	height: 90px;
+	display: block;
+	display: block;
+}
+.accinfo {
+	 background:url(../images/ac.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.accinfo:hover,.accinfo.active{
+    background:url(../images/aca.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.rece {
+	 background:url(../images/recen.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.rece:hover,.rece.active{
+    background:url(../images/recena.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.msg {
+	 background:url(../images/message.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.msg:hover,.msg.active{
+    background:url(../images/messagea.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.mycredit {
+	 background:url(../images/credit_card.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.mycredit:hover,.mycredit.active{
+    background:url(../images/credit_carda.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.shareearn {
+	 background:url(../images/share_earn.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.shareearn:hover,.shareearn.active{
+    background:url(../images/share_earna.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.rewardpoints {
+	 background:url(../images/reward_points.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.rewardpoints:hover,.rewardpoints.active{
+    background:url(../images/reward_pointsa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+ .myord {
+	 background:url(../images/myorder.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.myord:hover,.myord.active{
+    background:url(../images/myordera.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.cancrqs {
+	 background:url(../images/cancellationreqs.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.cancrqs:hover,.cancrqs.active{
+    background:url(../images/cancellationreqsa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+ .retreq {
+	 background:url(../images/retreq.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.retreq:hover,.retreq.active {
+    background:url(../images/retreqa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.sales {
+	 background:url(../images/sales.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.sales:hover,.sales.active {
+    background:url(../images/salesa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.myprod {
+	 background:url(../images/myproduct.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.myprod:hover,.myprod.active {
+    background:url(../images/myproducta.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+ .favou {
+	 background:url(../images/favo.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.favou:hover,.favou.active  {
+    background:url(../images/favoa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+  .addre {
+	 background:url(../images/address.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.addre:hover,.addre.active {
+    background:url(../images/addressa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.shop {
+	 background:url(../images/shop.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.shop:hover,.shop.active{
+    background:url(../images/shopa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.cancellationreq {
+	 background:url(../images/cancellationreq.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.cancellationreq:hover,.cancellationreq.active{
+    background:url(../images/cancellationreqa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+.returnreq {
+	 background:url(../images/returnreq.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.returnreq:hover,.returnreq.active{
+    background:url(../images/returnreqa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+ .changepass {
+	 background:url(../images/changepass.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.changepass:hover{
+    background:url(../images/changepassa.png) no-repeat;	    
+	height: 90px;
+	display: block;
+ }
+ .changeemail {
+	 background:url(../images/changeemail.png) no-repeat;
+	 height: 90px;
+	 display: block;
+}
+.changeemail:hover{
+    background:url(../images/changeemaila.png) no-repeat;	    
+	height: 90px;
+	display: block;
+}
+

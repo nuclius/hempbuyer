@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/bootstrap.css" />
+<link rel="stylesheet" href="../css/style.css" />
+<title>Currency Management</title>
+
+<style>
+.rate-size{
+    width:55%;
+}
+.sym-left{
+
+    width:50%;
+}
+.abbre{
+
+    width:50%;
+
+}
+
+.panel-default > .curr-title{
+
+background-color: #FF0;
+text-decoration: none;
+color:#000;
+}
+.curr-exchange{
+
+   background-color: #FAF5CE;
+text-decoration: none;
+height: 30px;
+padding:5px;
+color:#000; 
+}
+
+
+</style>
+</head>
+
+<body>
+
+<br/><br/>
+
+<div class="container">
+<h2>Currency Management</h2>
+
+<div class="row">
+    	
+    	<div class="panel with-nav-tabs panel-default">
+                <div class="panel-heading">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1default" data-toggle="tab">Default</a></li>
+                            <li><a href="#tab2default" data-toggle="tab">Custom</a></li>
+                            <li><a href="#tab3default" data-toggle="tab">Add New</a></li>
+                            <li><a href="#tab4default" data-toggle="tab">Setting</a></li>
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1default">
+                           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading curr-title" role="tab" id="headingOne">
+      <h4 class="panel-title curr-title">
+        <a style="cursor:default;text-decoration:none;" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOnetwo" aria-expanded="true" aria-controls="collapseOne">
+          Currencies
+        </a>
+      </h4>
+    </div>
+    <div class="col-md-12 curr-exchange"> Default Currency exchange rates (updated automatically)</div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <table class="table table-responsive">
+    <thead>
+      <tr>
+        <th>Currency</th>
+        <th>Rate</th>
+        <th>Abbreviation</th>
+        <th>Symbol Left</th>
+        <th>Symbol Right</th>
+        <th>Decimal Point</th>
+        <th>Thousands Point</th>
+        <th>Decimal Point</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="col-md-3"><input type="text" class="form-control" name="" value="US Dollor"></td>
+        <td class="col-md-2"><input type="text" class="form-control" name="" value="1.01"></td>
+        <td class="col-md-1"><input type="text" class="form-control" name="" value="USD"></td>
+        <td class="col-md-1"><input type="text" class="form-control" name="" value="US$"></td>
+         <td class="col-md-1"><input type="text" class="form-control" name="" value=""></td>
+          <td class="col-md-1"><input type="text" class="form-control" name="" value=""></td>
+           <td class="col-md-1"><input type="text" class="form-control" name="" value=""></td>
+            <td class="col-md-1"><input type="text" class="form-control" name="" value="2"></td>
+            <td class="col-md-1 text-center"><i class="glyphicon glyphicon-remove-sign"></i></td>
+      </tr>
+      <tr>
+        <td class="col-md-3"><input type="text" class="form-control" name="" value="US Dollor"></td>
+        <td class="col-md-2"><input type="text" class="form-control" name="" value="1.01"></td>
+        <td class="col-md-1"><input type="text" class="form-control" name="" value="USD"></td>
+        <td class="col-md-1"><input type="text" class="form-control" name="" value="US$"></td>
+         <td class="col-md-1"><input type="text" class="form-control" name="" value=""></td>
+          <td class="col-md-1"><input type="text" class="form-control" name="" value=""></td>
+           <td class="col-md-1"><input type="text" class="form-control" name="" value=""></td>
+            <td class="col-md-1"><input type="text" class="form-control" name="" value="2"></td>
+            <td class="col-md-1 text-center"><i class="glyphicon glyphicon-remove-sign"></i></td>
+      </tr>
+      <tr>
+        <td class="col-md-3"><input type="text" class="form-control" name="" value="AUSTRALIAN Dollor"></td>
+        <td class="col-md-2"><input type="text" class="form-control" name="" value="1.01"></td>
+        <td class="col-md-2"><input type="text" class="form-control" name="" value="AUD"></td>
+        <td class="col-md-2"><input type="text" class="form-control" name="" value="AU$"></td>
+        <td class="col-md-1"><input type="text" class="form-control" name="" value=""></td>
+        <td class="col-md-1"><input type="text" class="form-control" name="" value=""></td>
+        <td class="col-md-1"><input type="text" class="form-control" name="" value=""></td>
+        <td class="col-md-1"><input type="text" class="form-control" name="" value="2"></td>
+        <td class="col-md-1 text-center"><i class="glyphicon glyphicon-remove-sign"></i></td>
+      </tr>
+    </tbody>
+  </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="tab2default">
+
+                        	default2
+                            
+                        </div>
+                        <div class="tab-pane fade" id="tab3default">Default 3</div>
+                        <div class="tab-pane fade" id="tab4default">Default 4</div>
+                        <div class="tab-pane fade" id="tab5default">Default 5</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+   </div>
+
+</div>
+
+
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

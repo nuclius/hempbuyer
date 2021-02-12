@@ -1,0 +1,635 @@
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+
+<!-- Basic Page Needs
+  ================================================== -->
+<meta charset="utf-8">
+<title>Dashboard</title>
+
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<!-- CSS
+  ================================================== -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link  rel="stylesheet" type="text/css" href="../css/my-boot.css" />
+<link rel="stylesheet" type="text/css" href="../css/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="../css/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="../css/forward_home.css" />
+<link rel="stylesheet" type="text/css" href="../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../css/theme0.css" />
+<link  rel="stylesheet" type="text/css" href="icon.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!-- Favicons ================================================== -->
+<link rel="shortcut icon" href="/image/site_favicon/favicon.ico">
+<link rel="apple-touch-icon" href="/image/apple_touch_icon/apple-touch-icon.png">
+<link href="http://www.demo.yo-kart.com/account/dashboard_supplier" rel="canonical" />
+</head>
+<body>
+<div class="wrapper">
+<div class="body clearfix">
+  <nav class="navbar-custom" role="navigation">
+   <div class="container">
+    <div class="row"> 
+        <div class="col-md-5 col-sm-5 col-xs-12 pull-left cust_serrr">Customer Service 9722005516</div>
+       
+
+        <div class="col-md-7 col-sm-6 col-xs-12 welcome-msg text-right"> 
+          <div class="pull-left ab1" style="margin-right:5px" >
+            <span class="cursor ">View as</span>  &nbsp;
+            &nbsp; <form action="" id="change_theme" class="pull-right" method="post" enctype="multipart/form-data"  >
+             <input type="hidden" name="gopage"  value= "">
+                 <select onChange="" name="themeno" style="color:#000">
+                    
+                    <option value="0"  selected >Black Forest</option>
+                     <option value="1" selected >Baby blue</option>
+                    <option value="2"  selected >Glossy Byzantium</option>
+                    <option value="3"  selected >Deep Red</option> 
+                    <option value="4"  selected >Auction stone </option>          
+                 </select>
+            </form>
+           
+         </div>
+        <div class="pull-left ab1" style="margin-right:5px">
+            <span class="cursor ">Login as</span>  &nbsp;
+            <form action="login/save" id="autologin" method="post" class=" pull-right" enctype="multipart/form-data"  >
+                 <input type="hidden" name="autologin"  value= "1">
+                 <input type="hidden" name="username" id="autologinuserid"  value= "">
+                 <select onChange="" name="autologinoption" style="color:#000;width:100px;">
+                    <option value="0" selected>Select</option>
+                    <option value="buyer" selected>Buyer</option>
+                    <option value="seller" selected>Seller</option>
+                    <option value="admin" selected>Admin</option>    
+                 </select>
+            </form> 
+         </div>
+
+          
+           <div class="wlcome_rht pull-right">
+        Welcome! 
+          <a href="profile_settings"></a> <a href="login/logout" >Log Out</a><a href="" data-toggle="modal" data-target="#registration">Register</a> or <a href=""  data-toggle="modal" data-target="#Login">Sign In</a></div>
+           </div>
+      </div> 
+  </div>
+ </nav>
+    <div class="timer_cnt" style="display:none;">
+       <span>Please pay with in  <font class="cnter"></font> seconds. <a href="product/checkout/confirm/">Pay Now</a> </span>
+    </div>
+   
+  <header>
+   <div class="container">
+    <div class="row">
+       <div class="col-md-4 col-sm-4 col-xs-12 logo_container"> <a href=""><img  class="img-responsive" src="images/logo.png" class="img-responsive" alt="Auctionsoftware"/></a> </div>
+       <div class="col-md-8 col-sm-8 col-xs-12 pull-right">
+        <div class="col-md-6 col-sm-7 col-xs-6 pull-left">
+          <ul class="list-inline new_bright_li">
+             <li><a href="search">Auction</a></li>
+             <li><a href="search">Buy Now</a></li>
+             <li><a href="search">Featured</a></li>
+          </ul>
+       </div>
+        <div class="col-md-6 col-sm-5 col-xs-6 customer_service_block">
+          <div class="col-md-9 nmyaccount"> 
+          
+         
+          <a href="dashboard" title="" class="dropdown-toggle macc" data-toggle="dropdown">My Account <span class="caret"></span> </a>
+          
+                <ul class="dropdown-menu animated-dropdown">
+                  <li><a href="product/post">Sell An Item</a></li>
+                  <li><a href="dashboard/mybids">Buyer Dashboard</a></li>
+                  <li><a href="dashboard/my">Seller Dashboard</a></li>
+                  <li><a href="dashboard/messages">Messages</a></li>
+                  <li><a href="dashboard/watchlist">Watchlist</a></li>
+                  <li><a href="profile_settings">Profile</a></li>
+                    <li><a href="membership/setup">Membership</a></li>
+                  <li><a href="dashboard/payments">Payments</a></li>
+                  <li><a href="dashboard/payment/saved">Saved Payments</a></li>
+                  </ul>
+                  <div class="cart_himg col-md-3 pull-left">
+                    <div class="cartyynew cart" style="cursor: pointer;">0</div>
+                  </div>
+                </div>
+         </div>
+      </div>
+     </div>
+  </div>
+ </header>
+
+ <div class="profile-head clearfix no-print">
+      <div class="fixed-container">
+        <div class="threepin"> <a href="#" class="menu-dashboard click_trigger" id="ct_2"> <span></span></a> </div>
+        <div class="fl">
+          <div class="about-me">
+            <div class="avatar"><img src="images/seldash.png" class="img-responsive img-circle" /></div>
+            <div class="name">Maxixx <span>Los Angles, Chandigarh</span></div>
+          </div>
+        </div>
+        <div class="fr">
+          <div class="items-list">
+            <ul>
+              <li><a href="/account/publications"><span>65</span>Published Items</a></li>
+              <li><a href="/account/favorites"><span>20</span>Favorite Items</a></li>
+            </ul>
+          </div>
+          <div class="liked-shop">
+            <ul>
+              <li><a href="/account/favorites"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+                <g>
+                  <g>
+                    <defs>
+                      <rect id="SVGID_1_" width="70" height="66.3"></rect>
+                    </defs>
+                    <clipPath id="SVGID_2_">
+                      <use xlink:href="#SVGID_1_" overflow="visible"></use>
+                    </clipPath>
+                    <path clip-path="url(#SVGID_2_)" fill="#ffffff" d="M35,64.4l-4.9-4.9C11.9,43.4,0,32.5,0,19.2C0,8.4,8.4,0,19.2,0
+      c6,0,11.9,2.8,15.7,7.3C38.8,2.8,44.8,0,50.7,0C61.6,0,70,8.4,70,19.2c0,13.3-11.9,24.2-30.1,40.2L35,64.4z M35,64.4"></path>
+                  </g>
+                </g>
+                </svg> <span class="tooltip-txt">20 Favorite Items</span> </a></li>
+              <li><a href="/account/publications"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="-364 606 70 70" enable-background="new -364 606 70 70" xml:space="preserve">
+                <g>
+                  <g>
+                    <path fill="#ffffff" d="M-310.2,606H-347c-9.6,3-14.8,7.4-14.8,7.4h66.4C-301.5,607.6-310.2,606-310.2,606z M-360.3,672.5h62.7
+      v-48h-62.7V672.5z M-334.8,635.6c2.2,0,4.4,1.1,5.8,2.9c1.4-1.8,3.6-2.9,5.8-2.9c4,0,7.1,3.4,7.1,7.7c0,5.3-4.4,9.7-11.1,16.1
+      l-1.8,2l-1.8-2c-6.7-6.5-11.1-10.8-11.1-16.1C-341.9,639-338.8,635.6-334.8,635.6z M-364,617.2v3.7h70.1v-3.7H-364z"></path>
+                  </g>
+                </g>
+                </svg> <span class="tooltip-txt">65 Published Items</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fixed-container">
+      <div class="dashboard">
+        <div class="left-data no-print" id="list_ct_2">
+          <div class="dash-nav">
+            <ul>
+            <li class="dashboard active">
+            <a href="/account/dashboard_buyer">
+            <div class="dashb"></div>
+            </a></li>
+
+            <li class="colorchg">
+            <a href="/account/dashboard_buyer">
+            <div class="accinfo"></div>
+            </a></li>
+
+            <li class="recentactivity">
+            <a href="/account/recent_activity">
+            <div class="rece"></div>
+            </a></li> 
+
+            <li class="recentactivity">
+            <a href="/account/recent_activity">
+            <div class="msg"></div>
+            </a></li>
+                
+            <li class="messages">
+            <a href="/account/messages"> 
+            <div class="mycredit"></div>
+            </a></li>
+                
+            <li class="credits">
+            <a href="/account/credits"> 
+            <div class="shareearn"></div>
+            </a></li>
+                
+            <li class="">
+            <a href="/account/share_earn"> 
+            <div class="rewardpoints"></div>
+            </a></li>
+                                  
+            <li class="reward_points">
+            <a href="/account/reward_points">
+            <div class="sales"></div>
+            </a></li>  
+
+            <li class="myorders ">
+            <a href="/account/orders"> 
+            <div class="myprod"></div>
+            </a></li>
+           
+           <li class="cancellation-requests ">
+           <a href="/account/cancellation_requests">
+           <div class="shop"></div>
+           </a></li>
+
+           <li class="cancellation-requests ">
+           <a href="/account/cancellation_requests">
+           <div class="myord"></div>
+           </a></li>
+                     
+           <li class="return-requests ">
+           <a href="/account/return_requests">
+           <div class="cancrqs"></div> 
+           </a></li>     
+                
+           <li class="favorities ">
+           <a href="/account/favorites">
+           <div class="retreq"></div>
+           </a></li>   
+           
+           <li class="addressess ">
+           <a href="/account/addresses">
+           <div class="favou"></div>
+           </a></li>
+
+           <li class="addressess ">
+           <a href="/account/addresses">
+           <div class="addre"></div>
+           </a></li>
+                
+           <li class="changepassword ">
+           <a href="/account/change_password">
+           <div class="changepass"></div> 
+           </a></li>
+             
+           <li class="changepassword ">
+           <a href="/account/change_email">
+           <div class="changeemail"></div>
+           </a></li>
+                
+            </ul>
+          </div>
+        </div>        
+
+        <div class="data-side">
+          <div class="tabz-dashboard">
+            <ul class="tabz-ul">
+              <li class=""><a href="/account/dashboard_supplier">Supplier</a></li>
+              <li class="active"><a href="/account/dashboard_buyer">Buyer</a></li>
+            </ul>
+                        <div class="tabz-content">
+              <h3>Your Product Purchases</h3>
+              <div class="orders-list">
+                <ul>
+                  <li> <a href="/account/orders"><span class="txt-big">$ 182,367.59 </span>
+                    <p>Total Purchases</p>
+                    </a> </li>
+                  <li> <a href="/account/credits"><span class="txt-big">$ 293,705.88 </span>
+                    <p>My Total Credits</p>
+                    </a> </li>
+                    <li><a href="/account/orders"><span class="txt-big">57 </span>
+                    <p>Total Orders</p>
+                    </a> </li>
+                    <li> <a href="/account/messages"><span class="txt-big">0</span>
+                    <p>Unread Messages</p>
+                    </a> </li>
+                </ul>
+              </div>
+              
+              <div class="banks-tbs">
+                <div id="bank-info-tab" style="display: block; width: 100%; margin: 0px;">
+                  <ul class="resp-tabs-list">
+                    <li id="tab_1" class="resp-tab-item resp-tab-active" aria-controls="tab_item-0" role="tab">Personal Information</li>
+                    <li id="tab_2" class="resp-tab-item" aria-controls="tab_item-1" role="tab">Bank Information</li>
+                    <li id="tab_3" class="resp-tab-item" aria-controls="tab_item-2" role="tab">Return Address</li>
+                  </ul>
+                  <a class="view-more" id="editinfotab" href="/account/profile_info">Edit Information</a>
+                  <div class="resp-tabs-container">
+                    <h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>Personal Information</h2><div class="resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
+                      <table class=" tbl-normal">
+                        <tbody>
+                          <tr>
+                            <td><strong>Username:</strong> maxixx <span class="smallItalicText">(Cannot be changed)</span></td>
+                            <td><strong>Email:</strong> maxixx@dummyid.com</td>
+                          </tr>
+                          <tr>
+                            <td><strong>Name:</strong> Maxixx</td>
+                            <td><strong>Phone:</strong> 987654321</td>
+                          </tr>
+                          <tr>
+                            <td><strong>Location:</strong> Los Angles, Chandigarh</td>
+                            <td><strong>Member Since:</strong> Jun 23, 2015</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <h2 class="resp-accordion" role="tab" aria-controls="tab_item-1"><span class="resp-arrow"></span>Bank Information</h2><div class="resp-tab-content" aria-labelledby="tab_item-1">
+                      <table class=" tbl-normal">
+                        <tbody>
+                        <tr>
+                          <td><strong>Bank name:</strong> SBI</td>
+                          <td><strong>Beneficiary/Account Holder Name:</strong> Test User</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Bank Account Number:</strong> 0412421541251</td>
+                          <td><strong>IFSC Code/Swift Code:</strong> 0235213</td>
+                        </tr>
+                        <tr>
+                          <td><strong>Bank Address:</strong> Test tester
+32 Washington road
+maryland, Illinois - 23456
+United States
+T: 07500056865</td>
+                          <td></td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <h2 class="resp-accordion" role="tab" aria-controls="tab_item-2"><span class="resp-arrow"></span>Return Address</h2><div class="resp-tab-content" aria-labelledby="tab_item-2">
+                      <table class=" tbl-normal">
+                        <tbody>
+                            <tr>
+                              <td><strong>Full Name:</strong> EStore</td>
+                              <td><strong>Address Line 1:</strong> CHD</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Address Line 2:</strong> -NA-</td>
+                              <td><strong>Country:</strong> Australia</td>
+                            </tr>
+                            <tr>
+                              <td><strong>State:</strong> -NA-</td>
+                              <td><strong>City Town:</strong> Los Angles</td>
+                            </tr>
+                            <tr>
+                              <td><strong>Postcode:</strong> 90001</td>
+                              <td><strong>Support Number:</strong> 9000100001</td>
+                            </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+              
+              
+              <div class="gap"></div>
+              <div class="tbl-dashboard">
+                <div class="tbl-left">
+                  <h3>Latest 5 Orders</h3>
+                  <div class="latest-order">
+                    <table class="tbl-normal">
+                      <tbody>
+                        <tr>
+                          <th>Order Particulars</th>
+                          <th width="25%">Amount/Status</th>
+                          <th width="22%">Status</th>
+                        </tr>
+                                                <tr>
+                          <td><span class="cellcaption">Order Particulars</span>Feb 24, 2016<br>
+                          <a href="/account/view_order/261/668" class="order">160224-0000755-S0002</a><br>
+                          <span class="cellcaption">Ordered Products</span>HP Scanjet 200 Flatbed Photo Scanner (Qty:1)
+                                      <br>
+                                      <span class="txtinline">Part of combined order number <a href="/account/view_order/261">160224-0000755</a></span>
+                    </td>
+                          <td><span class="cellcaption">Amount</span>-<br>Payment Pending</td>
+                          <td><span class="cellcaption">Status</span> 
+                          
+                          <a class="actions" title="Cancel" href="/account/cancellation_request/668"><img src="images/close.svg" alt=""></a>
+                          
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/668"><img alt="" src="images/message.svg"></a>-->
+                                                    <a class="actions" title="Feedback" href="/account/feedback/668"><img alt="" src="images/list.svg"></a>
+                                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/668"><img src="images/dollar-arrow.svg" alt=""></a>
+                          </td>
+                        </tr>
+                                                <tr>
+                          <td><span class="cellcaption">Order Particulars</span>Feb 24, 2016<br>
+                          <a href="/account/view_order/261/667" class="order">160224-0000755-S0001</a><br>
+                          <span class="cellcaption">Ordered Products</span>Allen solly shoes (Qty:2)
+                                      <br>
+                                      <span class="txtinline">Part of combined order number <a href="/account/view_order/261">160224-0000755</a></span>
+                    </td>
+                          <td><span class="cellcaption">Amount</span>-<br>Payment Pending</td>
+                          <td><span class="cellcaption">Status</span> 
+                          
+                          <a class="actions" title="Cancel" href="/account/cancellation_request/667"><img src="images/close.svg" alt=""></a>
+                          
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/667"><img alt="" src="images/message.svg"></a>-->
+                                                    <a class="actions" title="Feedback" href="/account/feedback/667"><img alt="" src="images/list.svg"></a>
+                                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/667"><img src="images/dollar-arrow.svg" alt=""></a>
+                          </td>
+                        </tr>
+                                                <tr>
+                          <td><span class="cellcaption">Order Particulars</span>Feb 24, 2016<br>
+                          <a href="/account/view_order/260/664" class="order">160224-0000753-S0001</a><br>
+                          <span class="cellcaption">Ordered Products</span>Blue Skinny Jeans (Qty:1)
+                                      </td>
+                          <td><span class="cellcaption">Amount</span>$ 94.50<br>Payment Pending</td>
+                          <td><span class="cellcaption">Status</span> 
+                          
+                          <a class="actions" title="Cancel" href="/account/cancellation_request/664"><img src="images/close.svg" alt=""></a>
+                          
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/664"><img alt="" src="images/message.svg"></a>-->
+                                                    <a class="actions" title="Feedback" href="/account/feedback/664"><img alt="" src="images/list.svg"></a>
+                                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/664"><img src="images/dollar-arrow.svg" alt=""></a>
+                          </td>
+                        </tr>
+                                                <tr>
+                          <td><span class="cellcaption">Order Particulars</span>Feb 22, 2016<br>
+                          <a href="/account/view_order/259/662" class="order">160222-0000751-S0001</a><br>
+                          <span class="cellcaption">Ordered Products</span>Blue Slimfitt Jeans (Qty:1)
+                                      </td>
+                          <td><span class="cellcaption">Amount</span>$ 166.50<br>Payment Confirmed</td>
+                          <td><span class="cellcaption">Status</span> 
+                          
+                          <a class="actions" title="Cancel" href="/account/cancellation_request/662"><img src="images/close.svg" alt=""></a>
+                          
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/662"><img alt="" src="images/message.svg"></a>-->
+                                                    <a class="actions" title="Feedback" href="/account/feedback/662"><img alt="" src="images/list.svg"></a>
+                                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/662"><img src="images/dollar-arrow.svg" alt=""></a>
+                          </td>
+                        </tr>
+                                                <tr>
+                          <td><span class="cellcaption">Order Particulars</span>Feb 22, 2016<br>
+                          <a href="/account/view_order/258/660" class="order">160222-0000749-S0001</a><br>
+                          <span class="cellcaption">Ordered Products</span>Black Glitter Stretch jeans (Qty:2)
+                                      </td>
+                          <td><span class="cellcaption">Amount</span>$ 315.00<br>Payment Confirmed</td>
+                          <td><span class="cellcaption">Status</span> 
+                          
+                          <a class="actions" title="Cancel" href="/account/cancellation_request/660"><img src="images/close.svg" alt=""></a>
+                          
+                          <!--<a class="actions" title="Send a message" href="/account/send_message/order/660"><img alt="" src="images/message.svg"></a>-->
+                                                    <a class="actions" title="Feedback" href="/account/feedback/660"><img alt="" src="images/list.svg"></a>
+                                                                    
+                          <a class="actions" title="Refund" href="/account/return_request/660"><img src="images/dollar-arrow.svg" alt=""></a>
+                          </td>
+                        </tr>
+                                              </tbody>
+                    </table>
+                  </div>
+                  
+                  
+                  
+                  
+                  <div class="gap"></div>
+                </div>
+            <div class="tbl-right">
+              <h3>Latest Messages</h3>
+              <div class="message-list">
+                
+                    <ul>
+                        
+                        <li>
+                            <div class="pic">
+                            <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>maxixx</h4>
+                              <p> ok</p>
+                              <a class="readmore" href="/account/view_message/45/72"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                        
+                        <li>
+                            <div class="pic">
+                            <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>maxixx</h4>
+                              <p> hello abcd abcd abbcd</p>
+                              <a class="readmore" href="/account/view_message/45/71"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                        
+                        <li>
+                            <div class="pic">
+                           <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>maxixx</h4>
+                              <p> yes</p>
+                              <a class="readmore" href="/account/view_message/45/69"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                        
+                        <li>
+                            <div class="pic">
+                           <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>maxixx</h4>
+                              <p> Whoa, where can I buy this?</p>
+                              <a class="readmore" href="/account/view_message/45/67"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                        
+                        <li>
+                            <div class="pic">
+                            <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>mona</h4>
+                              <p> Thanks</p>
+                              <a class="readmore" href="/account/view_message/35/55"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                        
+                        <li>
+                            <div class="pic">
+                            <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>maxixx</h4>
+                              <p> hi</p>
+                              <a class="readmore" href="/account/view_message/37/53"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                        
+                        <li>
+                            <div class="pic">
+                            <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>maxixx</h4>
+                              <p> test</p>
+                              <a class="readmore" href="/account/view_message/37/50"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                        
+                        <li>
+                            <div class="pic">
+                            <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>mona</h4>
+                              <p> Hello maxixx,please send me tracking number of my order</p>
+                              <a class="readmore" href="/account/view_message/35/48"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                        
+                        <li>
+                            <div class="pic">
+                            <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>maxixx</h4>
+                              <p> Your message to merchant</p>
+                              <a class="readmore" href="/account/view_message/30/40"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                        
+                        <li>
+                            <div class="pic">
+                            <img src="images/seldash.png" class="img-responsive img-circle" />
+                          </div>
+                            <div class="text">
+                              <h4>maxixx</h4>
+                              <p> Your Message Reply details will be written here.</p>
+                              <a class="readmore" href="/account/view_message/29/39"><img alt="" src="images/reammore.png"></a> </div>
+                        </li>
+                      </ul>
+                
+                
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+</div>
+
+<footer style="margin-top:100px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5">
+                <div class="footer_logo"><a href="http://forward.auctionsoftware.com:2001">
+                    <img src="http://forward.auctionsoftware.com:2001/images/logoc.png" class="img-responsive" alt=""></a>
+                </div>
+                <div class="copy_right">
+                    <p class="footer_txt">Auctionsoftware.com&nbsp;<i class="fa fa-copyright"></i>&nbsp;2015.</p>
+
+                    <div class="social_icons">
+                        <span style="display: inline-block;float: left;">| Follow Us</span>
+
+                        <div><a href="https://www.facebook.com/pages/Auctionsoftwarecom/1497910160481548?fref=nf" target="_blank"><i class="fa fa-facebook"></i></a></div>
+                        <div><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-offset-1 col-xs-12 col-sm-12 col-md-6">
+
+
+                
+                <div class="footer_right">
+                    <div><a href="http://forward.auctionsoftware.com:2001/">Home</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/about">About Us</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/about/buyers">Buyers</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/sellers">Sellers</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/blog">Blog</a></div>
+                    <div style="border-right: 1px solid #fff;"><a href="http://forward.auctionsoftware.com:2001/how_it">How It Works</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/about/contacts">Contact Us</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/privacy">Privacy Policy</a></div>
+                    <div><a href="http://forward.auctionsoftware.com:2001/terms">Terms &amp; Conditions</a></div>
+                    <!--                       <div> <a href="http://forward.auctionsoftware.com:2001/login">Review</a></div>
+                    -->
+                    <div><a href="http://forward.auctionsoftware.com:2001/reviews">Review</a></div>
+                </div>
+                            </div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</footer>
+
+</body>
+</html>  

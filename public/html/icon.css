@@ -1,0 +1,158 @@
+.dash-nav li {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.dashb{
+	 background:url(images/dashboarda.png) no-repeat;
+	 height: 90px;
+}
+/*.dashb:hover{
+    background:url(images/dashboarda.png) no-repeat;	    
+	height: 90px;
+}*/
+.accinfo {
+	 background:url(images/ac.png) no-repeat;
+	 height: 90px;
+}
+.accinfo:hover{
+    background:url(images/aca.png) no-repeat;	    
+	height: 90px;
+ }
+.rece {
+	 background:url(images/recen.png) no-repeat;
+	 height: 90px;
+}
+.rece:hover{
+    background:url(images/recena.png) no-repeat;	    
+	height: 90px;
+ }
+.msg {
+	 background:url(images/message.png) no-repeat;
+	 height: 90px;
+}
+.msg:hover{
+    background:url(images/messagea.png) no-repeat;	    
+	height: 90px;
+ }
+.mycredit {
+	 background:url(images/credit_card.png) no-repeat;
+	 height: 90px;
+}
+.mycredit:hover{
+    background:url(images/credit_carda.png) no-repeat;	    
+	height: 90px;
+ }
+.shareearn {
+	 background:url(images/share_earn.png) no-repeat;
+	 height: 90px;
+}
+.shareearn:hover{
+    background:url(images/share_earna.png) no-repeat;	    
+	height: 90px;
+ }
+.rewardpoints {
+	 background:url(images/reward_points.png) no-repeat;
+	 height: 90px;
+}
+.rewardpoints:hover{
+    background:url(images/reward_pointsa.png) no-repeat;	    
+	height: 90px;
+ }
+ .myord {
+	 background:url(images/myorder.png) no-repeat;
+	 height: 90px;
+}
+.myord:hover{
+    background:url(images/myordera.png) no-repeat;	    
+	height: 90px;
+ }
+.cancrqs {
+	 background:url(images/cancellationreqs.png) no-repeat;
+	 height: 90px;
+}
+.cancrqs:hover{
+    background:url(images/cancellationreqsa.png) no-repeat;	    
+	height: 90px;
+ }
+ .retreq {
+	 background:url(images/retreq.png) no-repeat;
+	 height: 90px;
+}
+.retreq:hover {
+    background:url(images/retreqa.png) no-repeat;	    
+	height: 90px;
+ }
+.sales {
+	 background:url(images/sales.png) no-repeat;
+	 height: 90px;
+}
+.sales:hover {
+    background:url(images/salesa.png) no-repeat;	    
+	height: 90px;
+ }
+.myprod {
+	 background:url(images/myproduct.png) no-repeat;
+	 height: 90px;
+}
+.myprod:hover {
+    background:url(images/myproducta.png) no-repeat;	    
+	height: 90px;
+ }
+ .favou {
+	 background:url(images/favo.png) no-repeat;
+	 height: 90px;
+}
+.favou:hover {
+    background:url(images/favoa.png) no-repeat;	    
+	height: 90px;
+ }
+  .addre {
+	 background:url(images/address.png) no-repeat;
+	 height: 90px;
+}
+.addre:hover {
+    background:url(images/addressa.png) no-repeat;	    
+	height: 90px;
+ }
+.shop {
+	 background:url(images/shop.png) no-repeat;
+	 height: 90px;
+}
+.shop:hover{
+    background:url(images/shopa.png) no-repeat;	    
+	height: 90px;
+ }
+.cancellationreq {
+	 background:url(images/cancellationreq.png) no-repeat;
+	 height: 90px;
+}
+.cancellationreq:hover{
+    background:url(images/cancellationreqa.png) no-repeat;	    
+	height: 90px;
+ }
+.returnreq {
+	 background:url(images/returnreq.png) no-repeat;
+	 height: 90px;
+}
+.returnreq:hover{
+    background:url(images/returnreqa.png) no-repeat;	    
+	height: 90px;
+ }
+ .changepass {
+	 background:url(images/changepass.png) no-repeat;
+	 height: 90px;
+}
+.changepass:hover{
+    background:url(images/changepassa.png) no-repeat;	    
+	height: 90px;
+ }
+ .changeemail {
+	 background:url(images/changeemail.png) no-repeat;
+	 height: 90px;
+}
+.changeemail:hover{
+    background:url(images/changeemaila.png) no-repeat;	    
+	height: 90px;
+ }

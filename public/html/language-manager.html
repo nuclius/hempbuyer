@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/bootstrap.css" />
+<link rel="stylesheet" href="../css/style.css" />
+<title>Language Manager</title>
+
+<style>
+#sel-lang{
+    width:50%;
+}
+#sel-phrase{
+
+    width:50%;
+}
+.abbre{
+
+    width:50%;
+
+}
+
+.panel-default > .curr-title{
+
+background-color: #FF0;
+text-decoration: none;
+color:#000;
+}
+.curr-exchange{
+
+   background-color: #FAF5CE;
+text-decoration: none;
+height: 30px;
+padding:5px;
+color:#000; 
+}
+
+@media screen and (max-width:767px){
+
+  #sel-lang{
+    width:100% !important;
+}
+ #sel-phrase{
+
+    width:100% !important;
+  }
+}
+
+
+</style>
+</head>
+
+<body>
+
+<br/><br/>
+
+<div class="container">
+<h2>Language Manager</h2>
+
+<div class="row">
+    	
+    	<div class="panel with-nav-tabs panel-default">
+                <div class="panel-heading">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1default" data-toggle="tab">Phrase</a></li>
+                            <li><a href="#tab2default" data-toggle="tab">Language</a></li>
+                            <li><a href="#tab3default" data-toggle="tab">Groups</a></li>
+                            <!--<li><a href="#tab4default" data-toggle="tab">Setting</a></li>-->
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1default">
+                           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading curr-title" role="tab" id="headingOne">
+      <h4 class="panel-title curr-title">
+        <a style="cursor:default;text-decoration:none;" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOnetwo" aria-expanded="true" aria-controls="collapseOne">
+          Create New Language Phrase
+        </a>
+      </h4>
+    </div>
+    <div class="col-md-12 curr-exchange"> You can create new language phrases and call them as (_variables) from your html templates below
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <table class="table table-responsive">
+    <!--<thead>
+      <tr>
+        <th>Currency</th>
+        <th>Rate</th>
+        
+      </tr>
+    </thead>-->
+    <tbody>
+      <tr>
+        <td class="col-md-6">1.Choose language</td>
+        <td class="col-md-6">
+          <select class="form-control" id="sel-lang">
+        <!--<option>Please Select</option>-->
+        <option>English (US)</option>
+        <option>Hindi</option>
+        <option>Malayalam</option>
+      </select>
+    </td>
+        
+      </tr>
+      <tr>
+        <td class="col-md-6">2.Choose phrase group</td>
+        <td class="col-md-6">
+          <select class="form-control" id="sel-phrase">
+        <!--<option>Please Select</option>-->
+        <option>Accounting Phrases (3)</option>
+        <option>Phrases3</option>
+        <option>Phrases4</option>
+      </select>
+        </td>
+        
+      </tr>
+      <tr>
+        <td class="col-md-6">3.Create new phrase</td>
+        <td class="col-md-6"><textarea class="form-control" rows="3" id="comment" placeholder=""></textarea></td>
+        
+      </tr>
+      <tr>
+        <td class="col-md-6">4.Convert into template variable</td>
+        <td class="col-md-6"><button type="button" class="btn btn-warning" name="">Convert Phrase to Variable >>></button></td>
+        
+      </tr>
+      <tr>
+        <td class="col-md-6">5.Template variable</td>
+        <td class="col-md-6"><input type="text" class="form-control" name="" value=""></td>
+        
+      </tr>
+    </tbody>
+  </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="tab2default">
+
+                        	default2
+                            
+                        </div>
+                        <div class="tab-pane fade" id="tab3default">
+
+                          Default 3
+
+                        </div>
+                        <!--<div class="tab-pane fade" id="tab4default">Default 4</div>
+                        <div class="tab-pane fade" id="tab5default">Default 5</div>-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+   </div>
+
+</div>
+
+
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
